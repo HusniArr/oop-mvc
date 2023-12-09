@@ -8,16 +8,9 @@ class Router
 
     public function __construct()
     {
-        $this->parseUrl();
-    }
 
-    public function parseUrl()
-    {
-        $url = isset($_GET['url']) ? $_GET['url'] : '';
-        $url = explode('/', trim(strtolower($url), '/'));
-
-        // cek controller jika ada
-        if(!empty($url[0])){
+         // cek controller jika ada
+         if(!empty($url[0])){
 
             if (file_exists(ROOT.DS.'app'.DS.'controllers'.DS.$url[0].'Controller.php')) {
                 $this->controller = $url[0];
@@ -45,7 +38,14 @@ class Router
             $this->params = isset($url) ? array_values($url) : [];
         }
 
-        // panggil controller dengan params
+        //panggil controller dengan params
         call_user_func_array([$this->controller, $this->method], $this->params);
+    }
+
+    public function getUrl()
+    {
+        $url = isset($_GET['url']) ? $_GET['url'] : 'home';
+        return explode('/', filter_var(trim(strtolower($url), '/'), FILTER_SANITIZE_URL));
+
     }
 }
