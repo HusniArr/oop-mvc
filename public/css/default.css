@@ -1,0 +1,52 @@
+#mainNav {
+    background-color: #80A3A2;
+}
+
+.brand{
+    color: #fff;
+}
+
+.navbar-brand:hover{
+    color: rgb(166, 207, 242);
+}
+
+.navbar-nav li a.nav-link{
+    color: #fff;
+}
+
+.navbar-nav li a.nav-link:hover{
+    color: rgb(166, 207, 242);
+}
+
+.navbar-nav li a.nav-link:active{
+    color: #7FA6EE;
+}
+
+.copyright{
+    background-color: #80A3A2;
+    color: #fff;
+}
+
+#header{
+    background: #ECE8D9;
+}
+
+#gallery{
+    background: #FFFDF6;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#services{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#contact{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+footer{
+    margin-top: 100px;
+}

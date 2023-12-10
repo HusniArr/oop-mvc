@@ -8,6 +8,7 @@ class Router
 
     public function __construct()
     {
+        $url = $this->getUrl();
 
          // cek controller jika ada
          if(!empty($url[0])){

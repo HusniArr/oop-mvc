@@ -8,13 +8,13 @@ class Controller {
         return new $model;
     }
 
-    public function view($view, $data=[])
+    public function view($viewName, $data=[])
     {
         extract($data);
-        $view = ROOT . DS . 'app' . DS . 'views' . DS . $view . '.php';
-        // require_once ROOT . DS . 'app' . DS . 'views' . DS . 'master.php';
-        if(file_exists($view)) require_once $view;
-        else echo('Page Not Found');
+        $view = ROOT . DS . 'app' . DS . 'views' . DS . $viewName . '.php';
+        $notFound = ROOT . DS . 'app' . DS . 'views' . DS . 'not_found.php';
+        if(file_exists($view)) require_once($view);
+        else require_once($notFound);
         
     }
 }
