@@ -7,14 +7,13 @@ class Database {
 
     public function __construct()
     {
-        $this->dbh = new PDO('mysql:host='.DB_HOST.';dbname='.DB_NAME, DB_USER, DB_PASS);
+        $this->dbh = new PDO(''.DB_DRIVER.':host='.DB_HOST.';dbname='.DB_NAME, DB_USER, DB_PASS);
     }
 
     public function query($sql, $data = [])
 	{
 		$this->stmt = $this->dbh->prepare($sql);
 		$this->stmt->execute($data);
-		// return $this->stmt;
 	}
 
 	public function multipleSet()
@@ -27,7 +26,7 @@ class Database {
 		return $this->stmt->fetch(PDO::FETCH_OBJ);
 	}
 
-    public function rowCont()
+    public function rowCount()
     {
         return $this->stmt->rowCount();
     }
