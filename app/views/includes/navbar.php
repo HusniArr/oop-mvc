@@ -1,5 +1,5 @@
  <!-- Navigation -->
- <nav class="navbar navbar-expand-lg" id="mainNav">
+ <nav class="navbar navbar-expand-lg">
     <div class="container">
         <a class="navbar-brand brand" href="#page-top">PIJAR - <small>Pickup Jasa Angkutan Plat R</small></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>

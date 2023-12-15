@@ -1,4 +1,4 @@
-#mainNav {
+.navbar {
     background-color: #80A3A2;
 }
 
@@ -28,25 +28,37 @@
 }
 
 #header{
-    background: #ECE8D9;
+    /* background: #ECE8D9; */
+    background-image: url('../img/tenor-jaguar.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+#header .title-header, .info{
+    color: #FFFDF6;
+}
+
+#header .info{
+    text-align: justify;
 }
 
 #gallery{
     background: #FFFDF6;
-    margin-top: 100px;
-    margin-bottom: 100px;
 }
 
 #services{
-    margin-top: 100px;
-    margin-bottom: 100px;
+   
+    
 }
 
 #contact{
-    margin-top: 100px;
-    margin-bottom: 100px;
+
 }
 
 footer{
-    margin-top: 100px;
+    
 }
+
