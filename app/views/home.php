@@ -7,60 +7,48 @@
     <button class="btn btn-primary btn-lg" type="button">LIHAT DAFTAR SEWA</button>
 </div>
 <div id="gallery" class="">
-    <h2 class="text-center mb-4 mt-4">Galeri PIJAR</h2>
+    <h2 class="text-center py-4">Galeri Kami</h2>
     <div class="container">
-        <div class="row">
-            <div class="col-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="" class="card-img-top" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
+        <div class="content-gallery">
+            <div class="card-image">
+                <img src="<?php echo APP_URL?>/img/gallery/sewa-mobil-ayla.jpg" class="card-img-top" alt="">
+                <small></small>
             </div>
-            <div class="col-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="" class="card-img-top" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
+            <div class="card-image">
+                <img src="<?php echo APP_URL?>/img/gallery/sewa-mercy-eclass.jpg" class="card-img-top" alt="">
             </div>
-            <div class="col-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="" class="card-img-top" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
+            <div class="card-image">
+                <img src="<?php echo APP_URL?>/img/gallery/sewa-truk2.jpg" class="card-img-top" alt="">
+            </div>
+            <div class="card-image">
+                <img src="<?php echo APP_URL?>/img/gallery/sewa-truk.jpg" class="card-img-top" alt="">
+            </div>
+            <div class="card-image">
+                <img src="<?php echo APP_URL?>/img/gallery/sewa-mercy-eclass.jpg" class="card-img-top" alt="">
+            </div>
+            <div class="card-image">
+                <img src="<?php echo APP_URL?>/img/gallery/sewa-truk3.jpg" class="card-img-top" alt="">
             </div>
         </div>
-
+      
     </div>
 </div>
 <div id="services">
-    <h2 class="text-center mb-4 mt-4">Layanan Kami</h2>
+    <h2 class="text-center py-4">Layanan Kami</h2>
     <div class="container">
-        <div class="row">
+        <div class="row mt-2">
             <div class="col-6">
                     <div class="card" aria-hidden="true">
-                        <img src="" class="card-img-top" alt="">
+                        <img src="<?php echo APP_URL?>/img/gallery/sewa-mobil-ayla.jpg" class="card-img-top" alt="">
                         <div class="card-body">
                             <h5 class="card-title placeholder-glow">
-                            <span class="placeholder col-6"></span>
+                            Mobil Ayla
                             </h5>
                             <p class="card-text placeholder-glow">
-                            <span class="placeholder col-7"></span>
-                            <span class="placeholder col-4"></span>
-                            <span class="placeholder col-4"></span>
-                            <span class="placeholder col-6"></span>
-                            <span class="placeholder col-8"></span>
+                                Tarif : 1.500.000
+                            </p>
+                            <p class="card-text placeholder-glow">
+                                Menerima orderan antar kota khusus Solo - Yogyakarta
                             </p>
                             <a class="btn btn-primary col-6">Order Sekarang</a>
                     </div>
@@ -68,41 +56,96 @@
             </div>
             <div class="col-6">
                 <div class="card" aria-hidden="true">
-                    <img src="" class="card-img-top" alt="">
+                    <img src="<?php echo APP_URL?>/img/gallery/sewa-mercy-eclass.jpg" class="card-img-top" alt="">
                     <div class="card-body">
                         <h5 class="card-title placeholder-glow">
-                        <span class="placeholder col-6"></span>
+                            Mobil BMW
                         </h5>
                         <p class="card-text placeholder-glow">
-                        <span class="placeholder col-7"></span>
-                        <span class="placeholder col-4"></span>
-                        <span class="placeholder col-4"></span>
-                        <span class="placeholder col-6"></span>
-                        <span class="placeholder col-8"></span>
-                        </p>
+                                Tarif : 2.500.000
+                            </p>
+                            <p class="card-text placeholder-glow">
+                                Menerima orderan antar kota khusus Solo - Yogyakarta
+                            </p>
                         <a class="btn btn-primary col-6" >Order Sekarang</a>
                 </div>
             </div>
             </div>
         </div>
-
+        <div class="row mt-2">
+            <div class="col-6">
+                    <div class="card" aria-hidden="true">
+                        <img src="<?php echo APP_URL?>/img/service/sewa-truk.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title placeholder-glow">
+                            Mobil Engkel
+                            </h5>
+                            <p class="card-text placeholder-glow">
+                                Tarif : 2.000.000
+                            </p>
+                            <p class="card-text placeholder-glow">
+                                Menerima orderan antar kota khusus Solo - Yogyakarta
+                            </p>
+                            <a class="btn btn-primary col-6">Order Sekarang</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card" aria-hidden="true">
+                    <img src="<?php echo APP_URL?>/img/service/sewa-truk2.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title placeholder-glow">
+                            Truk
+                        </h5>
+                        <p class="card-text placeholder-glow">
+                                Tarif : 2.500.000
+                            </p>
+                            <p class="card-text placeholder-glow">
+                                Menerima orderan antar kota khusus Solo - Yogyakarta
+                            </p>
+                        <a class="btn btn-primary col-6" >Order Sekarang</a>
+                </div>
+            </div>
+            </div>
+        </div>
+        <ul class="pagination mt-4">
+            <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+            </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+            </a>
+            </li>
+        </ul>
     </div>
 </div>
 <div id="contact" class="">
-    <h2 class="text-center mb-4 mt-4">Kontak Kami</h2>
+    <h2 class="text-center py-4">Kontak Kami</h2>
     <div class="container">
         <form action="#">
             <div class="row">
                 <div class="col-6">
-                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-    
+                   <h4>Alamat Kantor</h4>
+                    <ul>
+                        <li>Kantor : Jl. Pangeran Diponegoro KM 101, Kab. Banyumas</li>
+                        <li>Email : admin@pijar.com</li>
+                        <li>Telp/ Hp : 021777999</li>
+                    </ul>
                     
                 </div>
                 <div class="col-6">
-                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
-    
+                    <h4>Sosial Media</h4>
+                    <div class="sosmed">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    </div>
                 </div>
             </div>
             <button class="btn btn-md mt-4 mb-4 btn-primary">Submit</button>

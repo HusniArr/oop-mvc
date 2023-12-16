@@ -1,3 +1,7 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
 .navbar {
     background-color: #80A3A2;
 }
@@ -26,14 +30,16 @@
     background-color: #80A3A2;
     color: #fff;
 }
-
+.divider{
+    border-bottom-style: solid;
+    margin-bottom: 20px;
+}
 #header{
     /* background: #ECE8D9; */
     background-image: url('../img/tenor-jaguar.gif');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 100vw;
     height: 100vh;
 }
 
@@ -46,19 +52,59 @@
 }
 
 #gallery{
-    background: #FFFDF6;
+  
 }
 
+.content-gallery{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.content-gallery  .card-image{
+    border-radius: 4px;
+    background-color: #005691;
+    padding: 4px;
+}
+.content-gallery .card-image img{
+    object-fit: cover;
+    width: 553px;
+    height: 400px;
+}
 #services{
-   
+
     
 }
 
 #contact{
-
+   
 }
 
 footer{
     
 }
 
+.sosmed a .fa-facebook{
+    color: #005691;
+}
+
+.sosmed a .fa-square-instagram{
+    color: #f03f3f;
+}
+
+.sosmed a .fa-square-x-twitter{
+    color: #1e1f21;
+}
+
+.sosmed a .fa-facebook, .fa-square-instagram, .fa-square-x-twitter{
+    font-size: 36px;
+}
+/* Small devices  */
+@media only screen and (max-width: 768px) {
+    .content-gallery .card-image img{
+        object-fit: cover;
+        width: 200px;
+        height: 100px;
+    }
+}

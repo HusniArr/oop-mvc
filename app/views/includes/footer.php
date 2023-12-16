@@ -3,5 +3,7 @@
     </footer>
     <script src="<?php echo APP_URL ?>/node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
     <script src="<?php echo APP_URL ?>/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="<?php echo APP_URL ?>/node_modules/@fortawesome/fontawesome-free/js/all.min.js"></script>
+    <script src="<?php echo APP_URL ?>/js/default.js"></script>
 </body>
 </html>
