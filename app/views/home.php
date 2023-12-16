@@ -128,8 +128,7 @@
 <div id="contact" class="">
     <h2 class="text-center py-4">Kontak Kami</h2>
     <div class="container">
-        <form action="#">
-            <div class="row">
+    <div class="row">
                 <div class="col-6">
                    <h4>Alamat Kantor</h4>
                     <ul>
@@ -148,8 +147,6 @@
                     </div>
                 </div>
             </div>
-            <button class="btn btn-md mt-4 mb-4 btn-primary">Submit</button>
-       </form>
 
     </div>
 
