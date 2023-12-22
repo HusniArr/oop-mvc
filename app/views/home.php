@@ -4,11 +4,13 @@
 <div id="header" class="p-5">
     <h1 class="display-5 fw-bold title-header">Temukan layanan sewa mobil dan truk barang terbaik pilihan Anda</h1>
     <p class="fs-4 info">Di Pijar kami melayani berbagai macam pilihan kebutuhan sewa mobil dan truk barang. Fasilitas yang kami tawarkan diantaranya bisa menerima carteran mobil, truk angkutan barang ataupun pindahan dan rute perjalanan yang dilalui baik antar kota maupun provinsi.</p>
-    <button class="btn btn-primary btn-lg" type="button">LIHAT DAFTAR SEWA</button>
+    <a href="#services" class="btn btn-primary btn-lg" role="button">LIHAT DAFTAR SEWA</a>
 </div>
 <div id="gallery" class="">
-    <h2 class="text-center py-4">Galeri Kami</h2>
     <div class="container">
+        <h1 class="title-gallery mt-4">GALERI KAMI</h1>
+        <hr class="divider-gallery d-flex justify-content-center">
+        <p>Lihat album perjalanan kami dari tahun ke tahun. Kami memiliki pelayanan prima siap melayani 1 x 24 jam.</p>
         <div class="content-gallery">
             <div class="card-image">
                 <img src="<?php echo APP_URL?>/img/gallery/sewa-mobil-ayla.jpg" class="card-img-top" alt="">
@@ -30,17 +32,18 @@
                 <img src="<?php echo APP_URL?>/img/gallery/sewa-truk3.jpg" class="card-img-top" alt="">
             </div>
         </div>
-      
+        <a href="" role="button" class="btn btn-sm btn-primary mt-2">Lihat Lagi</a>
     </div>
 </div>
 <div id="services">
-    <h2 class="text-center py-4">Layanan Kami</h2>
     <div class="container">
+        <h1 class="title-service mt-4">LAYANAN KAMI</h1>
+        <hr class="divider-service">
         <div class="row mt-2">
             <div class="col-6">
-                    <div class="card" aria-hidden="true">
+                    <div class="card shadow-lg p-3 bg-body" aria-hidden="true">
                         <img src="<?php echo APP_URL?>/img/gallery/sewa-mobil-ayla.jpg" class="card-img-top" alt="">
-                        <div class="card-body">
+                        <div class="card-body card-service">
                             <h5 class="card-title placeholder-glow">
                             Mobil Ayla
                             </h5>
@@ -55,9 +58,9 @@
                 </div>
             </div>
             <div class="col-6">
-                <div class="card" aria-hidden="true">
+                <div class="card shadow-lg p-3 bg-body" aria-hidden="true">
                     <img src="<?php echo APP_URL?>/img/gallery/sewa-mercy-eclass.jpg" class="card-img-top" alt="">
-                    <div class="card-body">
+                    <div class="card-body card-service">
                         <h5 class="card-title placeholder-glow">
                             Mobil BMW
                         </h5>
@@ -74,9 +77,9 @@
         </div>
         <div class="row mt-2">
             <div class="col-6">
-                    <div class="card" aria-hidden="true">
+                    <div class="card shadow-lg p-3 bg-body" aria-hidden="true">
                         <img src="<?php echo APP_URL?>/img/service/sewa-truk.jpg" class="card-img-top" alt="">
-                        <div class="card-body">
+                        <div class="card-body card-service">
                             <h5 class="card-title placeholder-glow">
                             Mobil Engkel
                             </h5>
@@ -91,9 +94,9 @@
                 </div>
             </div>
             <div class="col-6">
-                <div class="card" aria-hidden="true">
+                <div class="card shadow-lg p-3 bg-body" aria-hidden="true">
                     <img src="<?php echo APP_URL?>/img/service/sewa-truk2.jpg" class="card-img-top" alt="">
-                    <div class="card-body">
+                    <div class="card-body card-service">
                         <h5 class="card-title placeholder-glow">
                             Truk
                         </h5>
@@ -126,8 +129,9 @@
     </div>
 </div>
 <div id="contact" class="">
-    <h2 class="text-center py-4">Kontak Kami</h2>
     <div class="container">
+        <h1 class="title-contact mt-4">KONTAK KAMI</h1>
+        <hr class="divider-contact">
     <div class="row">
                 <div class="col-6">
                    <h4>Alamat Kantor</h4>

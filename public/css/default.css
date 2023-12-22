@@ -1,6 +1,6 @@
 html,body{
-    margin: 0;
-    padding: 0;
+    margin:0px;
+    padding: 0px;
 }
 .navbar {
     background-color: #80A3A2;
@@ -51,8 +51,42 @@ html,body{
     text-align: justify;
 }
 
+.title-gallery{
+  font-weight: 600;
+  font-size: 2rem; /* 32px*/
+}
+
+
+.divider-gallery{
+    /* width: 12rem; */
+    height: .2rem;
+    border: none;
+    border-radius: .2rem;
+    background: #80A3A2;
+}
+
+.divider-service{
+    /* width: 18rem; */
+    height: .2rem;
+    border: none;
+    border-radius: .2rem;
+    background: #80A3A2;
+}
+
+.divider-contact{
+    /* width: 18rem; */
+    height: .2rem;
+    border: none;
+    border-radius: .2rem;
+    background: #80A3A2;
+}
+
+.card-body.card-service{
+    background-color: #C4DCE0;
+}
+
 #gallery{
-  
+ 
 }
 
 .content-gallery{
@@ -74,11 +108,10 @@ html,body{
 }
 #services{
 
-    
 }
 
 #contact{
-   
+   background: #E8F1F5;
 }
 
 footer{
